@@ -1,37 +1,35 @@
 from ia.vision.capture import Capture
 from ia.vision.detect_hud import get_hp
-from ia.policy_simple import choose_action
-from controller.gamepad_emulator import send_action
-from ia.utils.config import load_config
-import time
+from ia.actions.executor import execute_action
+from ia.states.state_machine import StateMachine
+from ia.states.states import State
+from ia.memory.memory import MemoryJSON
+from ia.env.mk11_env import MK11Env
 
 def main():
-    print("[INFO] IA MK11 iniciada...")
 
-    config = load_config()
+    memory = MemoryJSON()
+    state_machine = StateMachine()
     cap = Capture()
 
-    while True:
+    def _get_state():
+        return state_machine.current
+
+    def _get_hp():
         frame = cap.get_frame()
-        if frame is None:
-            time.sleep(0.05)
-            continue
+        return get_hp(frame)
 
-        hp_player = get_hp(frame, config['hp_player_rect'], config['hp_hsv_lower'], config['hp_hsv_upper'])
-        hp_enemy  = get_hp(frame, config['hp_enemy_rect'], config['hp_hsv_lower'], config['hp_hsv_upper'])
+    env = MK11Env(
+        get_state_fn=_get_state,
+        get_hp_fn=_get_hp,
+        do_action_fn=execute_action
+    )
 
-        hp_player = hp_player if hp_player is not None else 1.0
-        hp_enemy  = hp_enemy  if hp_enemy is not None else 1.0
+    print("[IA] Rodando...")
 
-        action = choose_action({
-            "hp_player": hp_player,
-            "hp_enemy": hp_enemy
-        })
+    obs, _ = env.reset()
 
-        print(f"[MK11] HP_Player={hp_player:.2f} HP_Enemy={hp_enemy:.2f} Action={action}")
-        send_action(action, duration=0.10)
-
-        time.sleep(0.15)
-
-if __name__ == "__main__":
-    main()
+    while True:
+        # por enquanto só escolhe idle
+        action = 0
+        obs, reward, terminated, truncated, _ = env.step(action)
