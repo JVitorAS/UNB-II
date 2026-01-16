@@ -1,0 +1,9 @@
+mss
+opencv-python
+numpy
+pynput
+torch
+stable-baselines3
+gymnasium
+matplotlib
+vgamepad

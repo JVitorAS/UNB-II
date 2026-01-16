@@ -1,0 +1,16 @@
+{
+    "monitor": null,
+    "hp_player_rect": null,
+    "hp_enemy_rect": null,
+    "hp_hsv_lower": [
+        0,
+        100,
+        100
+    ],
+    "hp_hsv_upper": [
+        10,
+        255,
+        255
+    ],
+    "debug": true
+}
