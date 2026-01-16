@@ -1,0 +1,9 @@
+{
+  "monitor_index": 0,
+
+  "hp_player_rect": [100, 100, 200, 20],
+  "hp_enemy_rect": [100, 150, 200, 20],
+
+  "hp_hsv_lower": [0, 100, 100],
+  "hp_hsv_upper": [10, 255, 255]
+}

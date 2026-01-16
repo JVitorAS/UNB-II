@@ -1,0 +1,123 @@
+{
+    "personagem": "Johnny Cage",
+    "jogo": "Mortal Kombat 11",
+    "estilo_de_jogo": "Pressure / Rushdown / Footsies",
+    "qualidades": [
+        "Melhores 'pokes' (golpes curtos) do jogo, permitindo ditar o ritmo da partida.",
+        "Pressão extrema com o golpe 'Force Ball' (amplificado), deixando-o sempre em vantagem de frames.",
+        "Excelente mobilidade e controle de distância com o 'Shadow Kick'.",
+        "Fatal Blow com cancelamento, permitindo combos estendidos ou fintas mortais.",
+        "Strings de ataque muito seguras (safe on block), dificultando a punição do oponente."
+    ],
+    "defeitos": [
+        "Dificuldade contra personagens que possuem ataques 'Low' (baixos) muito rápidos.",
+        "Dependência alta de variações específicas (como Outtake) para lidar com zoners extremos.",
+        "O Krushing Blow do 'Shadow Kick' exige uma distância específica, o que requer precisão.",
+        "Seus melhores projéteis (High Forceball) podem ser evitados se o oponente apenas abaixar sem defender."
+    ],
+    "matchups": {
+        "vantagem_contra": [
+            {
+                "nome": "Baraka",
+                "motivo": "Johnny consegue punir a maioria das investidas do Baraka e superá-lo na velocidade dos ataques médios."
+            },
+            {
+                "nome": "Shao Kahn",
+                "motivo": "A lentidão do Shao Kahn o torna um alvo fácil para a pressão constante e segura de Johnny."
+            }
+        ],
+        "desvantagem_contra": [
+            {
+                "nome": "Jacqui Briggs",
+                "motivo": "Jacqui consegue competir na pressão de curto alcance e tem ferramentas de aproximação mais explosivas."
+            },
+            {
+                "nome": "Cetrion",
+                "motivo": "O zoneamento da Cetrion pode ser frustrante, forçando Johnny a arriscar Shadow Kicks perigosos."
+            }
+        ]
+    },
+    "tier_position_2026": "S (Top Tier)",
+    "mapeamento_botoes": {
+        "light_punch": "X",
+        "heavy_punch": "Y",
+        "light_kick": "A",
+        "heavy_kick": "B",
+        "block": "RB",
+        "grab": "LB"
+    },
+    "poderes_especiais": [
+        {
+            "nome": "Force Ball (High)",
+            "comando": "Baixo, Frente, Y",
+            "amplificavel": "Sim (RB)",
+            "uso": "Zoneamento e pressão positiva de frames."
+        },
+        {
+            "nome": "Shadow Kick",
+            "comando": "Trás, Frente, B",
+            "amplificavel": "Não",
+            "uso": "Punição de longa distância e finalização de combo."
+        },
+        {
+            "nome": "Nut Punch",
+            "comando": "Baixo, Trás, X",
+            "amplificavel": "Sim (RB)",
+            "uso": "Extensor de combos principal (deixa o oponente em pé)."
+        },
+        {
+            "nome": "Flipper Kick",
+            "comando": "Baixo, Trás, A",
+            "amplificavel": "Sim (RB)",
+            "uso": "Anti-aéreo e finalização no canto."
+        }
+    ],
+    "fatal_blow": {
+        "nome": "The Show Off",
+        "comando": "LB + RB",
+        "mecanica_especial": "Pode ser cancelado segurando os botões e apertando Trás, Trás (Dash)."
+    },
+    "lista_de_combos": [
+        {
+            "tipo": "Bread and Butter (1 Barra)",
+            "sequencia": "Frente+A, X, Baixo-Trás-X (RB), Trás+Y, Frente+A, X, Trás-Frente-B",
+            "dano_estimado": "280-310",
+            "descricao": "Combo padrão de meio de tela usando Nut Punch amplificado."
+        },
+        {
+            "tipo": "Combo de Canto (Máximo Dano)",
+            "sequencia": "Y, X, B, Trás+Y, Trás+Y, Baixo-Trás-X (RB), Y, X, Y",
+            "dano_estimado": "350-380",
+            "descricao": "Malabarismo no canto para manter o oponente preso."
+        },
+        {
+            "tipo": "Punição Rápida (Punish)",
+            "sequencia": "Y, X, B, Trás-Frente-B",
+            "dano_estimado": "220",
+            "descricao": "Início rápido para punir golpes inseguros do adversário."
+        },
+        {
+            "tipo": "Pressão no Bloqueio (Safe String)",
+            "sequencia": "Frente+A, X, Y, Baixo-Frente-Y (RB)",
+            "dano_estimado": "N/A (Chip Damage)",
+            "descricao": "Termina em vantagem de frames, impedindo o contra-ataque do oponente."
+        }
+    ],
+    "principais_strings_de_comando": [
+        {
+            "nome": "The Meyer",
+            "comando": "Frente+A, X, Y",
+            "propriedade": "Iniciador de pressão"
+        },
+        {
+            "nome": "Coming Attractions",
+            "comando": "Y, X, B",
+            "propriedade": "Punição de 12 frames"
+        },
+        {
+            "nome": "Midway",
+            "comando": "Trás+Y, Baixo+Y",
+            "propriedade": "Ótimo para controle de espaço"
+        }
+    ]
+}

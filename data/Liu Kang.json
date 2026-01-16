@@ -1,0 +1,123 @@
+{
+    "personagem": "Liu Kang",
+    "jogo": "Mortal Kombat 11",
+    "estilo_de_jogo": "Rushdown / Frame Trap Specialist",
+    "qualidades": [
+        "Excelentes 'frametraps' que forçam o oponente a respeitar o turno.",
+        "Pokes rápidos com recuperação curta, permitindo whiff punish eficiente.",
+        "Fireballs horizontais e diagonais que controlam a tela e obrigam o oponente a pular.",
+        "Ótimo jogo de pressão no canto e conversões consistentes.",
+        "Strings seguras e com poucas brechas para Flawless Block.",
+        "Possui parry, aumentando a capacidade defensiva contra personagens agressivos."
+    ],
+    "defeitos": [
+        "Dano máximo geralmente exige barras de medidor.",
+        "Abordagem previsível quando o oponente conhece o ritmo dos frame traps.",
+        "Fireball é punível por teletransportes e anti-zoners.",
+        "Depende da leitura correta do oponente para tirar valor do parry."
+    ],
+    "matchups": {
+        "vantagem_contra": [
+            {
+                "nome": "Jacqui Briggs",
+                "motivo": "Frame data superior em situações de disputa curta e parry punindo entradas previsíveis."
+            },
+            {
+                "nome": "Kotal Kahn",
+                "motivo": "Kotal sofre contra personagens rápidos e com projetil acessível."
+            },
+            {
+                "nome": "Sub-Zero",
+                "motivo": "Neutral sólido impede o mix-up e Liu vence o jogo de pokes."
+            },
+            {
+                "nome": "Noob Saibot",
+                "motivo": "Consegue furar o zoneamento com fireballs diagonais e dash curto."
+            }
+        ],
+        "desvantagem_contra": [
+            {
+                "nome": "Cetrion",
+                "motivo": "Controle de tela superior e projetis com recuperação muito curta."
+            },
+            {
+                "nome": "Geras",
+                "motivo": "Buttons longos e conversões de altíssimo dano em curto alcance."
+            },
+            {
+                "nome": "Spawn",
+                "motivo": "Zona o Liu com segurança e pune fireball com ferramenta de tela cheia."
+            }
+        ]
+    },
+    "tier_position_2026": "S- (Altíssimo nível competitivo)",
+    "mapeamento_base": {
+        "X": "light_punch",
+        "Y": "heavy_punch",
+        "A": "light_kick",
+        "B": "heavy_kick",
+        "RB": "block",
+        "LB": "grab"
+    },
+    "poderes_e_habilidades": [
+        {
+            "nome": "Dragon Fire",
+            "comando": "Frente, Frente, heavy_punch",
+            "descricao": "Fireball horizontal que mantém o oponente distante."
+        },
+        {
+            "nome": "Low Dragon Fire",
+            "comando": "Baixo, Frente, heavy_punch",
+            "descricao": "Versão baixa do fireball para punir adversários que tentam pular ou andar agachado."
+        },
+        {
+            "nome": "Flying Dragon Kick",
+            "comando": "Trás, Frente, heavy_kick",
+            "descricao": "Avanço rápido e punível, mas útil como fechamento de round."
+        },
+        {
+            "nome": "Bicycle Kick",
+            "comando": "Trás, Frente, light_kick",
+            "descricao": "Ataque multi-hit amplificável para estender combos."
+        },
+        {
+            "nome": "Parry",
+            "comando": "Baixo, Baixo, heavy_punch",
+            "descricao": "Reflete ataques físicos e muda o ritmo do oponente."
+        }
+    ],
+    "combos_principais": [
+        {
+            "nome": "B&B Universal",
+            "sequencia": "light_punch, heavy_punch, Trás, Frente, light_kick (Amplificar), dash, heavy_punch, Frente, Frente, heavy_punch",
+            "descricao": "Combo padrão com conversão consistente em qualquer posição da tela."
+        },
+        {
+            "nome": "Corner Carry Otimizado",
+            "sequencia": "light_kick, light_punch, Trás, Frente, light_kick (Amplificar), dash, light_kick, Flying Dragon Kick",
+            "descricao": "Excelente para empurrar o oponente até o canto da tela."
+        },
+        {
+            "nome": "Anti-Zoner Extendido",
+            "sequencia": "jump_in, heavy_punch, light_punch, Trás, Frente, light_kick (Amplificar), heavy_punch",
+            "descricao": "Conversão após pulo ofensivo para punir fireball."
+        }
+    ],
+    "strings_de_pressao": [
+        {
+            "comando": "F3, 4",
+            "nome": "Dragon's Tempo",
+            "vantagem": "Frame trap que força respeito do oponente."
+        },
+        {
+            "comando": "1, 2, 3",
+            "nome": "Shaolin Fundamentals",
+            "vantagem": "String segura e excelente para manter turno."
+        },
+        {
+            "comando": "B1, 2",
+            "nome": "Shaolin Patience",
+            "vantagem": "Avanço de médio alcance com pouco risco."
+        }
+    ]
+}

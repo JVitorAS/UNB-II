@@ -1,0 +1,124 @@
+{
+    "personagem": "Scorpion",
+    "jogo": "Mortal Kombat 11",
+    "estilo_de_jogo": "Punisher / Space Control",
+    "qualidades": [
+        "Excelente controle de distância com o golpe F3 (Frente + Chute Curto).",
+        "Teletransporte (Hell Port) pune instantaneamente qualquer tentativa de zoneamento (projéteis).",
+        "Staggers eficazes que permitem manter a pressão e confundir o oponente.",
+        "Acesso a 'Safe Jumps' (pulos seguros) que garantem vantagem após derrubar o oponente.",
+        "Dano consistente e combos de fácil execução para jogadores de todos os níveis.",
+        "Alta mobilidade com cancelamentos de teletransporte (em variações específicas)."
+    ],
+    "defeitos": [
+        "Altamente punível se o teletransporte for bloqueado (Full Combo Punish).",
+        "Ataques 'Mid' (médios) são relativamente lentos, dificultando a disputa de turno em curta distância.",
+        "Muito dependente de barras de medidor para causar dano elevado.",
+        "Strings (sequências) previsíveis com lacunas (gaps) que permitem oponentes darem Flawless Block.",
+        "Personagem extremamente conhecido pela base de jogadores, facilitando a antecipação de seus movimentos."
+    ],
+    "matchups": {
+        "vantagem_contra": [
+            {
+                "nome": "Jade",
+                "motivo": "O teletransporte anula a principal vantagem dela que é o zoneamento e o uso do cajado à distância."
+            },
+            {
+                "nome": "Skarlet",
+                "motivo": "Scorpion pode punir os projéteis lentos da Skarlet de qualquer lugar da tela."
+            },
+            {
+                "nome": "RoboCop",
+                "motivo": "Personagens focados em projéteis sofrem contra a mobilidade vertical e instantânea do Scorpion."
+            }
+        ],
+        "desvantagem_contra": [
+            {
+                "nome": "Cetrion",
+                "motivo": "Apesar do teletransporte, Cetrion tem ferramentas de controle de solo e recuperação rápida que dificultam a aproximação."
+            },
+            {
+                "nome": "Jacqui Briggs",
+                "motivo": "A pressão de curto alcance da Jacqui é muito superior; Scorpion tem dificuldade em 'respirar' contra o jogo ofensivo dela."
+            },
+            {
+                "nome": "Liu Kang",
+                "motivo": "Liu Kang possui pokes mais rápidos e strings com menos falhas, vencendo a maioria das disputas de turno (frames)."
+            },
+            {
+                "nome": "Sub-Zero",
+                "motivo": "O mix-up (overhead/low) do Sub-Zero força o Scorpion a jogar na defensiva, onde ele é mais vulnerável."
+            }
+        ]
+    },
+    "tier_position_2026": "A- (Equilibrado / Forte em mãos experientes)",
+    "mapeamento_base": {
+        "X": "light_punch",
+        "Y": "heavy_punch",
+        "A": "light_kick",
+        "B": "heavy_kick",
+        "RB": "block",
+        "LB": "grab"
+    },
+    "poderes_e_habilidades": [
+        {
+            "nome": "Spear (Arpão)",
+            "comando": "Trás, Frente, light_punch",
+            "descricao": "Puxa o oponente para perto deixando-o atordoado."
+        },
+        {
+            "nome": "Hell Port (Teletransporte)",
+            "comando": "Baixo, Trás, light_kick",
+            "descricao": "Ataca o oponente por trás. Pode ser amplificado (RB) para um combo."
+        },
+        {
+            "nome": "Death Spin (Giro da Corrente)",
+            "comando": "Baixo, Frente, heavy_kick",
+            "descricao": "Golpe de médio alcance excelente para finalizar combos ou afastar o oponente."
+        },
+        {
+            "nome": "Burning Spear (Buff de Dano)",
+            "comando": "Baixo, Trás, heavy_punch",
+            "descricao": "Aumenta o dano causado pelos golpes com a lança por um curto período."
+        },
+        {
+            "nome": "Misery Blade (Postura)",
+            "comando": "Baixo, Trás, light_punch",
+            "descricao": "Habilidade equipável que permite ataques rápidos com a espada (Mix-ups)."
+        }
+    ],
+    "combos_principais": [
+        {
+            "nome": "Bread and Butter (Básico)",
+            "sequencia": "light_punch, light_punch, Baixo, Trás, light_kick (Amplificar RB), heavy_punch, light_punch, Trás, Frente, light_punch",
+            "descricao": "Combo padrão de fácil execução usando o teletransporte amplificado e terminando no arpão."
+        },
+        {
+            "nome": "Punição de Longo Alcance",
+            "sequencia": "Frente + light_kick, heavy_kick, Baixo, Trás, light_kick (Amplificar RB), light_punch, light_punch, Baixo, Frente, heavy_kick",
+            "descricao": "Inicia com o chute de longo alcance (F3), punindo o oponente e terminando no giro de corrente."
+        },
+        {
+            "nome": "Corner Pressure (Canto)",
+            "sequencia": "Frente + heavy_punch, light_punch, light_kick, heavy_punch, light_punch, light_kick, light_punch, light_punch, light_punch",
+            "descricao": "Sequência rápida para manter o oponente preso no canto da tela."
+        },
+        {
+            "nome": "Combo Avançado (Dano Máximo)",
+            "sequencia": "Frente + light_kick, heavy_kick, Baixo, Trás, light_kick (Amplificar RB), heavy_punch, Baixo, Trás, light_kick (Sem Amplificar), light_punch, light_punch, Trás, Frente, light_punch",
+            "descricao": "Utiliza o 'Air Teleport' para estender o combo antes de finalizar com o Spear."
+        }
+    ],
+    "strings_de_pressao": [
+        {
+            "comando": "Frente + heavy_punch, light_punch, light_kick",
+            "nome": "The Shirai Ryu",
+            "vantagem": "Boa para confundir o oponente entre ataques altos e médios."
+        },
+        {
+            "comando": "light_punch, light_punch, heavy_punch",
+            "nome": "Eternal Vengeance",
+            "vantagem": "Ótima para staggers (interromper a sequência para enganar o oponente)."
+        }
+    ]
+}

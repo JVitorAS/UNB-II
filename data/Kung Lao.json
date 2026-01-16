@@ -1,0 +1,117 @@
+{
+    "personagem": "Kung Lao",
+    "jogo": "Mortal Kombat 11",
+    "estilo_de_jogo": "Rushdown / Mix-up / Aerial Pressure",
+    "qualidades": [
+        "Excelente mobilidade aérea com o teletransporte e o chute de mergulho (Dive Kick).",
+        "O golpe 'Spin' (Giro) é um dos melhores anti-aéreos e extensores de combo do jogo.",
+        "Pressão de 'Stagger' muito forte com o soco curto (D1) e sequências rápidas.",
+        "Possui um dos 'Throws' (arremessos) mais rápidos e perigosos, que pode levar a combos no canto.",
+        "Ótima capacidade de 'Chipping damage' (dano no bloqueio) com o uso do chapéu."
+    ],
+    "defeitos": [
+        "Muitas sequências principais terminam em desvantagem (unsafe), exigindo cancelamentos precisos.",
+        "O teletransporte é previsível contra jogadores experientes e pode ser punido com um 'Full Combo'.",
+        "Depende muito de estar próximo ao oponente, sofrendo contra personagens de zoneamento pesado.",
+        "Alcance dos ataques básicos (pokes) é menor do que a média dos Top Tiers."
+    ],
+    "matchups": {
+        "vantagem_contra": [
+            {
+                "nome": "Shao Kahn",
+                "motivo": "A velocidade do Kung Lao atropela a lentidão do Shao Kahn antes que ele possa reagir."
+            },
+            {
+                "nome": "Baraka",
+                "motivo": "Kung Lao consegue entrar e sair da distância de ataque do Baraka com facilidade usando mobilidade aérea."
+            }
+        ],
+        "desvantagem_contra": [
+            {
+                "nome": "Cetrion",
+                "motivo": "O zoneamento da Cetrion é um pesadelo para o Kung Lao, dificultando sua aproximação segura."
+            },
+            {
+                "nome": "Jacqui Briggs",
+                "motivo": "Jacqui possui uma pressão de curto alcance ainda mais rápida e ferramentas aéreas que anulam o Dive Kick."
+            },
+            {
+                "nome": "Fujin",
+                "motivo": "Fujin consegue controlar o ar melhor que o Kung Lao, anulando sua principal vantagem competitiva."
+            }
+        ]
+    },
+    "tier_position_2026": "A (Forte, mas exige execução técnica)",
+    "mapeamento_botoes": {
+        "X": "light_punch",
+        "Y": "heavy_punch",
+        "A": "light_kick",
+        "B": "heavy_kick",
+        "RB": "block"
+    },
+    "poderes_especiais": [
+        {
+            "nome": "Spin (Giro)",
+            "comando": "Baixo, Frente, X",
+            "amplificavel": "Sim (RB)",
+            "uso": "Principal extensor de combo e anti-aéreo."
+        },
+        {
+            "nome": "Dive Kick (Chute de Mergulho)",
+            "comando": "No Ar: Baixo + B",
+            "amplificavel": "Não",
+            "uso": "Pressão aérea e punição rápida de projéteis."
+        },
+        {
+            "nome": "Teleport",
+            "comando": "Baixo, Cima",
+            "opcoes": "X (Arremesso), Y (Ataque Médio), A (Ataque Baixo), B (Ataque Alto)",
+            "uso": "Mix-up e movimentação imprevisível."
+        },
+        {
+            "nome": "Guided Hat (Chapéu Guiado)",
+            "comando": "Trás, Frente, Y",
+            "amplificavel": "Sim (RB)",
+            "uso": "Controle de espaço e manter o oponente na defensiva."
+        }
+    ],
+    "fatal_blow": {
+        "nome": "Deadly Rabbit",
+        "comando": "LB + RB",
+        "caracteristica": "Inicia com um golpe médio rápido, excelente para punir 'Whiffs' (golpes no vazio)."
+    },
+    "lista_de_combos": [
+        {
+            "tipo": "Bread and Butter (Meio de Tela)",
+            "sequencia": "Frente+Y, Baixo, Frente, X (RB), Pulo com Y, Baixo+B (Dive Kick), Frente+X, Baixo, Frente, X",
+            "descricao": "Combo clássico iniciando com o golpe de ombro, usando o giro para manter o oponente no ar."
+        },
+        {
+            "tipo": "Combo de Canto (Dano Alto)",
+            "sequencia": "Trás+Y, X, Y, Trás+Y, X, Y, Baixo, Frente, X (RB), X, X, X, Baixo, Frente, X",
+            "descricao": "Sequência repetitiva no canto que aproveita a velocidade dos socos para maximizar o dano."
+        },
+        {
+            "tipo": "Combo com Teletransporte",
+            "sequencia": "Baixo, Cima, Y (No Teleport), Frente+Y, Baixo, Frente, X (RB), Trás, Frente, Y",
+            "descricao": "Usa o ataque médio do teletransporte como iniciador surpresa."
+        }
+    ],
+    "strings_de_comando_essenciais": [
+        {
+            "nome": "Monk Strike",
+            "comando": "Frente+X, Y, X, Y, A",
+            "propriedade": "String longa para 'hit confirm' ou confundir a defesa."
+        },
+        {
+            "nome": "Iron Palm",
+            "comando": "Trás+Y, X, Y",
+            "propriedade": "Excelente iniciador de combo, rápido e com bom alcance."
+        },
+        {
+            "nome": "Double Yang",
+            "comando": "X, X",
+            "propriedade": "A string mais rápida (7 frames) para punir oponentes de perto."
+        }
+    ]
+}
