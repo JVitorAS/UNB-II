@@ -1,0 +1,123 @@
+{
+    "personagem": "The Joker",
+    "jogo": "Mortal Kombat 11",
+    "estilo_de_jogo": "Zoning / Mid-Range Control / Pressure",
+    "qualidades": [
+        "Alcance fenomenal com a bengala, permitindo controlar o meio da tela (neutral).",
+        "Dano explosivo, especialmente com combos que utilizam o 'Kapow'.",
+        "Projéteis variados que permitem um controle de grupo e zoneamento eficiente.",
+        "Um dos melhores Fatal Blows do jogo devido ao seu alcance e velocidade.",
+        "Mix-ups perigosos com o 'Cane Perry' e variações de ataques 'Low' e 'Overhead'."
+    ],
+    "defeitos": [
+        "Ataques de bengala (High/Mid) podem ser vulneráveis a personagens com 'low profile' (que baixam muito).",
+        "Algumas das strings mais fortes possuem 'gaps' (brechas) onde o oponente pode interromper.",
+        "Dependência de barras para converter combos de alto dano a partir de iniciadores rápidos.",
+        "Velocidade de movimento (dash) não é a mais rápida do jogo."
+    ],
+    "matchups": {
+        "vantagem_contra": [
+            {
+                "nome": "Terminator",
+                "motivo": "Joker consegue manter o Terminator longe com a bengala e punir sua lentidão com facilidade."
+            },
+            {
+                "nome": "Robocop",
+                "motivo": "O contra-zoneamento do Joker e seu alcance médio superam as ferramentas de curta distância do Robocop."
+            }
+        ],
+        "desvantagem_contra": [
+            {
+                "nome": "Fujin",
+                "motivo": "A mobilidade aérea e o controle de tela do Fujin dificultam o estabelecimento do jogo de distância do Joker."
+            },
+            {
+                "nome": "Liu Kang",
+                "motivo": "A velocidade dos 'pokes' de Liu Kang e seus projéteis rápidos podem sufocar a preparação do Joker."
+            }
+        ]
+    },
+    "tier_position_2026": "S+ (Top Tier / God Tier)",
+    "mapeamento_botoes": {
+        "light_punch": "X",
+        "heavy_punch": "Y",
+        "light_kick": "A",
+        "heavy_kick": "B",
+        "block": "RB",
+        "grab": "LB"
+    },
+    "poderes_especiais": [
+        {
+            "nome": "Birdie",
+            "comando": "Baixo, Trás, Y",
+            "amplificavel": "Sim (RB)",
+            "uso": "Projétil principal para controle de distância; a versão amplificada lança o oponente."
+        },
+        {
+            "nome": "Kapow",
+            "comando": "Baixo, Trás, B",
+            "amplificavel": "Sim (RB)",
+            "uso": "Extensor de combo principal e punição de médio alcance."
+        },
+        {
+            "nome": "Cane Perry",
+            "comando": "Baixo, Trás, A",
+            "amplificavel": "Não",
+            "uso": "Contra-ataque para golpes altos e médios; excelente para ler o oponente."
+        },
+        {
+            "nome": "Batsy-Poo",
+            "comando": "Trás, Frente, X",
+            "amplificavel": "Sim (RB)",
+            "uso": "Projétil de longa distância. Pode ser carregado ou cancelado para fintas."
+        }
+    ],
+    "fatal_blow": {
+        "nome": "Smile!",
+        "comando": "LB + RB",
+        "mecanica_especial": "Alcance de quase tela cheia; um dos melhores 'punishers' globais do jogo."
+    },
+    "lista_de_combos": [
+        {
+            "tipo": "Bread and Butter (1 Barra)",
+            "sequencia": "Frente+Y, Dois, Baixo-Trás-B (RB), Pulo+Y, Frente+A, Dois, Baixo-Trás-Y",
+            "dano_estimado": "320-340",
+            "descricao": "Combo padrão utilizando o Kapow amplificado para lançar o inimigo."
+        },
+        {
+            "tipo": "Combo de Canto (Sem Barra)",
+            "sequencia": "Dois, Um, Dois, Trás+Y, Trás+Y, Trás+Y, Baixo-Trás-Y",
+            "dano_estimado": "290-310",
+            "descricao": "Explora o juggle (malabarismo) no canto usando apenas ataques básicos."
+        },
+        {
+            "tipo": "Punição de Longo Alcance",
+            "sequencia": "Frente+Y, Dois, Trás-Frente-B",
+            "dano_estimado": "240",
+            "descricao": "Aproveita o alcance da bengala para punir erros à distância."
+        },
+        {
+            "tipo": "Pressão/Mix-up",
+            "sequencia": "Frente+A, Dois, Baixo-Trás-X",
+            "dano_estimado": "N/A",
+            "descricao": "String que termina em um projétil ou finta, mantendo o Joker seguro ou em vantagem."
+        }
+    ],
+    "principais_strings_de_comando": [
+        {
+            "nome": "Clown Prince",
+            "comando": "Frente+Y, Dois",
+            "propriedade": "Iniciador com alcance incrível (Mid)"
+        },
+        {
+            "nome": "Funny Bone",
+            "comando": "Trás+Y, Dois",
+            "propriedade": "Ataque rápido de médio alcance"
+        },
+        {
+            "nome": "Hard To Swallow",
+            "comando": "Dois, Um, Dois",
+            "propriedade": "Excelente para punição e pressão no canto"
+        }
+    ]
+}
